@@ -73,7 +73,7 @@ while Try1 == True:
 
 while Try2 == True:
   print("\n1 - View Passengers")
-  print("2 - View Fare")
+  print("2 - View Cost")
   print("3 - Add Passenger")
   print("4 - Book Tickets")
   print("5 - Exit")
@@ -84,7 +84,7 @@ while Try2 == True:
     continue
 
   elif Option1 == 2:
-    print(f'\nFare: {Fare}')
+    print(f'\nCost: {Fare}')
 
   elif Option1 == 3:
     print("\nPassengers Details: ")
@@ -105,7 +105,7 @@ while Try2 == True:
   elif Option1 == 4:
     print("\nConfirm Tickets: ")
     print(f'Passengers: {Passengers}')
-    print(f'Fare: {Fare}')
+    print(f'Cost: {Fare}')
     C = input("\nBook Tickets (y/n): ")
     
     if C == 'y':
